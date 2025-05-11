@@ -1,11 +1,11 @@
-# 👩‍⚕️ Mask Detection App
+# Mask Detection App
 
 This **Mask Detection** app uses a **YOLOv11** model to detect whether people in images are wearing a mask. The app takes an image as input, runs the mask detection model on it, and displays the results.
 
-## ⚙️ Demo
+## Demo
 [Try The Demo Here!](https://huggingface.co/spaces/Speccco/Mask-Detection)
 
-## 🖼️ How to Use
+## How to Use
 
 1. **Upload an Image**:
    - Click the "Upload an image" button to select a photo containing people (JPG, PNG, or JPEG).
@@ -16,15 +16,15 @@ This **Mask Detection** app uses a **YOLOv11** model to detect whether people in
 3. **View Results**:
    - The app will show the original image with bounding boxes around detected faces and indicate whether the individual is wearing a mask.
 
-## 🤖 Model
+## Model
 
 The app is powered by a **YOLOv11 model** trained to detect **masks** on faces.
 
-### 🧠 Trained Model:
+### Trained Model:
 
 - The mask detection model has been trained using a custom dataset containing face images with and without masks.
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **YOLOv11** for mask detection
 - **Streamlit** for the interactive web app
@@ -32,7 +32,7 @@ The app is powered by a **YOLOv11 model** trained to detect **masks** on faces.
 - **OpenCV** for image processing and visualization
 - **Pillow** for image manipulation
 
-## 📦 Installation
+## Installation
 
 1. Clone this repository:
    ```bash
